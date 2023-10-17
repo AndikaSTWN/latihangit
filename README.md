@@ -8,7 +8,6 @@ Ini adalah tutorial penggunaan Git. Git adalah sistem kontrol versi yang kuat ya
 2. Ikuti panduan instalasi yang sesuai dengan sistem operasi Anda.
 ![Teks Alt](gambar1.png)
 
-
 ## Langkah-Langkah Dasar
 
 1. **Inisialisasi Repositori Git**:
@@ -17,30 +16,38 @@ Ini adalah tutorial penggunaan Git. Git adalah sistem kontrol versi yang kuat ya
    - Masuk ke direktori proyek.
    - Inisialisasi repositori Git dengan perintah:
     
+    ```markdown
     $ git init
-
-
+    ```
 
 2. **Menambahkan File**:
    - Tambahkan folder atau direktori ke repositori dengan perintah:
     
+    ```markdown
     $ mkdir tutorialgit
     ![Teks Alt](gambar2.png)
+    ```
 
 3. **Membuat Commit**:
    - Buat commit untuk menyimpan perubahan dengan pesan deskriptif:
      
+    ```markdown
     $ git commit -m "Pesan commit Anda di sini"
+    ```
 
 4. **Tautkan ke Repositori Eksternal (Opsional)**:
    - Tautkan repositori lokal Anda ke repositori di layanan eksternal seperti GitHub:
     
+    ```markdown
     $ git remote add origin URL-repositori-Anda
+    ```
 
 5. **Mengirim Perubahan (Opsional)**:
    - Kirim perubahan Anda ke repositori eksternal (misalnya, GitHub) dengan perintah:
-     
+    
+    ```markdown
     $ git push -u origin master
+    ```
 
 ## Catatan Tambahan
 
@@ -50,5 +57,3 @@ Ini adalah tutorial penggunaan Git. Git adalah sistem kontrol versi yang kuat ya
 Terima kasih telah mengikuti tutorial ini. Untuk informasi lebih lanjut tentang Git, Anda dapat membaca [dokumentasi resmi Git](https://git-scm.com/doc).
 
 Jika Anda memiliki pertanyaan atau membutuhkan bantuan lebih lanjut, jangan ragu untuk bertanya.
-
-
