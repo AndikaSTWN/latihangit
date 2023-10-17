@@ -49,11 +49,43 @@ Ini adalah tutorial penggunaan Git. Git adalah sistem kontrol versi yang kuat ya
     $ git push -u origin master
     ```
 
+## Manajemen Cabang
+
+Git memungkinkan Anda untuk membuat dan mengelola cabang dalam repositori Anda. Ini berguna untuk pengembangan fitur terpisah, pemecahan masalah, dan kerja kolaboratif. Berikut adalah beberapa perintah umum yang digunakan dalam manajemen cabang:
+
+6. **Membuat Cabang Baru**:
+   - Untuk membuat cabang baru dalam repositori Anda, gunakan perintah:
+   
+    ```markdown
+    $ git branch nama-cabang
+    ```
+
+7. **Beralih ke Cabang Lain**:
+   - Anda dapat beralih ke cabang lain dengan perintah:
+   
+    ```markdown
+    $ git checkout nama-cabang
+    ```
+
+8. **Menggabungkan Cabang**:
+   - Untuk menggabungkan perubahan dari satu cabang ke cabang lain, gunakan perintah:
+   
+    ```markdown
+    $ git merge nama-cabang
+    ```
+
 ## Catatan Tambahan
 
 - Pastikan untuk memahami konsep dasar seperti commit, cabang (branch), dan penggabungan (merge).
 - Anda juga dapat membuat file `.gitignore` untuk mengabaikan file yang tidak perlu dilacak oleh Git.
 
-Terima kasih telah mengikuti tutorial ini. Untuk informasi lebih lanjut tentang Git, Anda dapat membaca [dokumentasi resmi Git](https://git-scm.com/doc).
+## Sumber Daya Lanjutan
 
-Jika Anda memiliki pertanyaan atau membutuhkan bantuan lebih lanjut, jangan ragu untuk bertanya.
+Git adalah alat yang kuat, dan Anda dapat mengeksplorasi lebih banyak tentangnya. Di sini adalah beberapa sumber daya lanjutan yang dapat membantu Anda:
+
+- [Dokumentasi Resmi Git](https://git-scm.com/doc)
+- [GitHub Learning Lab](https://lab.github.com/)
+- [Atlassian Git Tutorial](https://www.atlassian.com/git)
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+
+Terima kasih telah mengikuti tutorial ini. Jika Anda memiliki pertanyaan atau membutuhkan bantuan lebih lanjut, jangan ragu untuk bertanya.
