@@ -25,9 +25,9 @@ Ini adalah tutorial penggunaan Git. Git adalah sistem kontrol versi yang kuat ya
     
     ```markdown
     $ mkdir tutorialgit
-    ![Teks Alt](gambar2.png)
+  
     ```
-
+  ![ks Alt](gambar2.png)Te
 3. **Membuat Commit**:
    - Buat commit untuk menyimpan perubahan dengan pesan deskriptif:
      
@@ -74,6 +74,26 @@ Git memungkinkan Anda untuk membuat dan mengelola cabang dalam repositori Anda. 
     $ git merge nama-cabang
     ```
 
+## Kolaborasi dengan Git
+
+Git juga sangat berguna untuk bekerja secara kolaboratif dengan orang lain dalam proyek perangkat lunak. Berikut adalah beberapa konsep dan perintah yang membantu dalam kolaborasi:
+
+9. **Kloning Repositori**:
+   - Anda dapat mengkloning repositori yang ada dengan perintah:
+   
+    ```markdown
+    $ git clone URL-repositori
+    ```
+
+10. **Pengiriman Permintaan Tarik (Pull Request)**:
+    - Saat bekerja di repositori bersama seperti GitHub, Anda dapat mengirim permintaan tarik untuk mengusulkan perubahan ke pemilik repositori utama.
+
+11. **Konflik Penggabungan (Merge Conflict)**:
+    - Terkadang, saat menggabungkan perubahan, Anda dapat mengalami konflik penggabungan. Anda perlu memecahkan konflik ini sebelum melanjutkan.
+
+12. **Pemeliharaan Cabang**:
+    - Pastikan untuk merawat cabang Anda dan menjaga sinkronisasi dengan cabang utama.
+
 ## Catatan Tambahan
 
 - Pastikan untuk memahami konsep dasar seperti commit, cabang (branch), dan penggabungan (merge).
@@ -87,5 +107,17 @@ Git adalah alat yang kuat, dan Anda dapat mengeksplorasi lebih banyak tentangnya
 - [GitHub Learning Lab](https://lab.github.com/)
 - [Atlassian Git Tutorial](https://www.atlassian.com/git)
 - [Pro Git Book](https://git-scm.com/book/en/v2)
+
+## Mengatasi Masalah Umum
+
+13. **Lupa Kata Sandi Git**:
+    - Jika Anda lupa kata sandi Git Anda, Anda dapat meresetnya dengan perintah:
+   
+    ```markdown
+    $ git credential reject
+    ```
+
+14. **Mengatasi Error Git**:
+    - Jika Anda menghadapi kesalahan Git, pastikan untuk memeriksa pesan kesalahan dan mencari solusi secara online.
 
 Terima kasih telah mengikuti tutorial ini. Jika Anda memiliki pertanyaan atau membutuhkan bantuan lebih lanjut, jangan ragu untuk bertanya.
